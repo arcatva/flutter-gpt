@@ -47,7 +47,6 @@ class MessageRow extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Expanded(
-          // 使文本填充剩余空间
           child: SelectableText(
             message.text,
             style: const TextStyle(),
